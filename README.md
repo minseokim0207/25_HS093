@@ -61,8 +61,7 @@
 - 백엔드 : Python(FastAPI), Node.js, Django
 - AI/ML : PyTorch, TensorFlow, OpenAI API
 - 데이터베이스 : PostgreSQL, MongoDB, Elasticsearch
-- 클라우드 : AWS
-- 배포 및 관리 : Docker, Kubernetes, GitHub Actions
+- 배포 및 관리 : Docker, GitHub Actions
 
 ---
 
@@ -70,7 +69,7 @@
 | <img width="80" height="100" src="https://github.com/minseokim0207/assets/blob/master/img/mentee1.jpg?raw=true" > | <img width="80" height="100" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/mentee2.jpg?raw=true" > | <img width="80" height="100" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/mentee3.jpg?raw=true" > | <img width="80" height="100" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/mentee4.jpg?raw=true" > | 
 |:---:|:---:|:---:|:---:|
 | **김민서** | **박건희** | **라영웅** | **김효주** |
-| • 개발총괄 <br> • UI/UX 기획 | • 백엔드 <br> • 프론트엔드 | • API 개발 <br> • DB 서버 구축 |• 데이터 분석 <br> • 전처리 | 
+| • 개발총괄 <br> • 데이터 분석 | • UI/UX 기획 <br> • 영상편집 | • API 개발 <br> • DB 서버 구축 |• 데이터 분석 <br> • 전처리 | 
 
 
 
@@ -87,7 +86,7 @@
 
 - H/W 구성도
   
-<img width="650" height="700" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/HardwareConfigurationDiagram.png?raw=true" />  
+<img width="650" height="600" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/HardwareConfDiagram.png?raw=true" />  
 
 
 <!-- 엔티티 관계도
