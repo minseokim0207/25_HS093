@@ -87,7 +87,7 @@
 
 - H/W 구성도
   
-<img width="650" height="800" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/HardwareConfigurationDiagram.png?raw=true" />  
+<img width="650" height="700" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/HardwareConfigurationDiagram.png?raw=true" />  
 
 
 <!-- 엔티티 관계도
