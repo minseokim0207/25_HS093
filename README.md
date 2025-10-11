@@ -1,52 +1,47 @@
-# 📝[2025년 한이음 드림업 공모전 템플릿]
-- 이 파일은 2025년 한이음 드림업 프로젝트를 수행하는 학생들에게 README 작성의 가이드라인을 제공하기 위해 제작되었습니다.
-- [Git & Github 기초사용법 알아보기](https://github.com/hanium-dreamup-challenge/git_guide/blob/main/README_git_guide.md)
----
-## **💡README 작성방법**
-- 프로젝트에서 사용되는 소스코드를 레포지토리에 업로드 한 후, 아래 가이드에 따라 README.md파일을 작성해주세요.
-- 필수 작성 항목(5가지) : 프로젝트 개요, 팀원 소개, 시스템 구성도, 작품 소개영상, 핵심 소스코드 
-- 프로젝트 저장소명 규칙 : `https://github.com/깃허브계정명/프로젝트 번호`
-- 예시) 깃허브 계정이 hanium이고, 프로젝트 번호가 25_HC001일 경우 -> `https://github.com/hanium/25_HC001`
-- 아래 항목 및 내용은 이해를 돕기위한 예시입니다. 참고만 하되 자유롭게 추가 및 작성해주시기 바랍니다.
-
----
-
 ## **💡1. 프로젝트 개요**
 
 **1-1. 프로젝트 소개**
 - 프로젝트 명 : **CareBuddy** (케어버디)
 - 프로젝트 정의 : 고령자 및 돌봄 대상자의 안전을 지키고 돌봄 부담을 완화하는 **레일 주행형 AI 모바일 로봇**
- <img width="650" height="300" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/carebuddy.jpg?raw=true" /></br>
+  
+   <img width="650" height="300" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/mainImage.jpg?raw=true" /></br>
 
 **1-2. 개발 배경 및 필요성**
- 1) 스마트 케어 시스템을 통해 효율적이고 지속 가능한 돌봄 환경 마련 필요
-
- 2) 초고령화 사회 대응과 돌봄 인력 부족 해결 필요
+ 
+  1) 초고령화 사회 대응과 돌봄 인력 부족 해결 필요
 
  - 통계청의 ‘2024 고령자 통계’ 에 따르면, 2025년 65세 이상 고령 인구 전체 인구의 20% 이상 약 1,051만 명 예상
-  - 요양보호사 수요 급증에도 불구하고, 2027년까지 약 7.5만 명 부족 예상
+   
+   <img width="650" height="300" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/populationExpectation.png?raw=true" /></br>
+   
   - 현재 1명의 요양보호사가 5.3~8.8명의 대상자를 담당하는 등 과중한 업무 현실
-    <img width="650" height="300" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/labor_shortage_projection.png?raw=true" /></br>
+  - 요양보호사 수요 급증에도 불구하고, 2028년까지 약 11만 명 부족 예상
+    
+    <img width="650" height="300" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/ShortageOfNursingStaff.png?raw=true" /></br>
+  
+  2) 스마트 케어 시스템을 통해 효율적이고 지속 가능한 돌봄 환경 마련 필요
+
 
 **1-3. 프로젝트 특장점**
-- 기존 돌봄 장비 대비 실시간성과 정밀성이 향상된 스마트 시스템 
-<img width="650" height="250" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/chart1.png?raw=true" /></br> 
+- 기존 돌봄 장비 대비 실시간성과 정밀성이 향상된 스마트 시스템
+  
+  <img width="650" height="250" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/chart1.png?raw=true" /></br> 
 - 기존 CCTV 기반 모니터링 대비 개선 효과
   
   <img width="650" height="300" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/chart2.png?raw=true" /></br>
  
 **1-4. 주요 기능**
-- **낙상 감지 AI 모델**: YOLOv8 object detection 기반으로 실시간 이상행동(낙상) 탐지
+- **On Device AI**: Hailo-8 기반 로컬 AI 추론으로 네트워크 없이 저지연·고속 연산 가능
 - **실시간 이동형 관측 시스템**: 레일형 로봇이 천장 구조를 따라 이동하여 사각지대 문제 해소
-- **적외선(IR) 카메라 기반 야간 인식 기능**: 주.야간환경에서 24시간 실시간 감지 가능
+- **NOIR 카메라 기반 야간 인식 기능**: 주.야간환경에서 24시간 실시간 감지 가능
 - **모바일 실시간 알림 연동**: 이상행동 발생 시 보호자 앱으로 즉시 알림 전송
 - **음성 인터페이스**: 이상행동 발생 시 블루투스 스피커를 통해 실내 경고 알림 제공
 
 
 **1-5. 기대 효과 및 활용 분야**
 1) 기대 효과 
-- **즉각 대응**: 이상행동 실시간 감지 → 음성/앱 알림으로 보호자 및 의료진의 신속한 대응 가능
-- **사각지대 최소화**: 이동형 레일 로봇 + IR 카메라로 주야간 감시 및 사각지대 해소
+- **즉각 대응**: 이상행동(낙상) 실시간 감지 → 음성/앱 알림으로 보호자 및 의료진의 신속한 대응 가능
+- **사각지대 최소화**: 이동형 레일 로봇 + NOIR 카메라로 주야간 감시 및 사각지대 해소
 - **통행 방해 해소**: 천장 설치 구조로 바닥 공간 점유 없이 설치 가능.
 
 2) 활용 분야 
@@ -57,10 +52,9 @@
 
 
 **1-6. 기술 스택**
-- 프론트엔드 : React, Next.js, Tailwind CSS
-- 백엔드 : Python(FastAPI), Node.js, Django
-- AI/ML : PyTorch, TensorFlow, OpenAI API
-- 데이터베이스 : PostgreSQL, MongoDB, Elasticsearch
+- 프론트엔드 : MIT App Inventor
+- Edge Device : Raspberry Pi 5, Hailo-8 AI HAT+, Arduino Nano RP2040, TCP/IP
+- AI/ML : YOLOv8, PyTorch, Hailo SDK
 - 배포 및 관리 : Docker, GitHub Actions
 
 ---
@@ -69,24 +63,23 @@
 | <img width="80" height="100" src="https://github.com/minseokim0207/assets/blob/master/img/mentee1.jpg?raw=true" > | <img width="80" height="100" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/mentee2.jpg?raw=true" > | <img width="80" height="100" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/mentee3.jpg?raw=true" > | <img width="80" height="100" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/mentee4.jpg?raw=true" > | 
 |:---:|:---:|:---:|:---:|
 | **김민서** | **박건희** | **라영웅** | **김효주** |
-| • 개발총괄 <br> • 데이터 분석 | • UI/UX 기획 <br> • 영상편집 | • API 개발 <br> • DB 서버 구축 |• 데이터 분석 <br> • 전처리 | 
+| • 개발총괄 <br> • 데이터 분석 | • UI/UX 기획 <br> • 문서 작성 | • 하드웨어 제작 <br> • 프론트엔드 |• 하드웨어 설계 <br> • 임베디드 제어| 
 
 
 
 ---
 ## **💡3. 시스템 구성도**
-> **(참고)** S/W구성도, H/W구성도, 서비스 흐름도 등을 작성합니다. 시스템의 동작 과정 등을 추가할 수도 있습니다.
 - 서비스 흐름도
   
-<img width="650" height="300" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/ServiceFlowChart.png?raw=true" />
+<img width="600" height="300" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/ServiceFlowChart.png?raw=true" />
 
 - S/W 구성도
   
-<img width="650" height="550" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/SoftwareConfigurationDiagram.png?raw=true" />  
+<img width="600" height="550" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/SoftwareConfigurationDiagram.png?raw=true" />  
 
 - H/W 구성도
   
-<img width="650" height="600" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/hardware.png?raw=true" />  
+<img width="1200" height="700" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/HardwareConfigurationDiagram.png?raw=true" />  
 
 
 <!-- 엔티티 관계도
@@ -96,43 +89,123 @@
 
 ---
 ## **💡4. 작품 소개영상**
-> **참고**: 썸네일과 유튜브 영상을 등록하는 방법입니다.
-```Python
-아래와 같이 작성하면, 썸네일과 링크등록을 할 수 있습니다.
-[![영상 제목](유튜브 썸네일 URL)](유튜브 영상 URL)
 
-작성 예시 : 저는 다음과 같이 작성하니, 아래와 같이 링크가 연결된 썸네일 이미지가 등록되었네요! 
-[![한이음 드림업 프로젝트 소개](https://github.com/user-attachments/assets/16435f88-e7d3-4e45-a128-3d32648d2d84)](https://youtu.be/YcD3Lbn2FRI?si=isERqIAT9Aqvdqwp)
-```
-[![한이음 드림업 프로젝트 소개](https://github.com/minseokim0207/assets/blob/master/img/carebuddy_mockup.jpg?raw=true)](https://youtu.be/md-1Mj3nchI?si=9WYguuIe8CvcwUC6)
+[![한이음 드림업 프로젝트 소개](https://github.com/minseokim0207/assets/blob/master/img/youtubeImage.png?raw=true)](https://youtu.be/md-1Mj3nchI?si=9WYguuIe8CvcwUC6)
 
 
 ---
 ## **💡5. 핵심 소스코드**
-- 소스코드 설명 : API를 활용해서 자동 배포를 생성하는 메서드입니다.
+```python
+  
+import os, socket, time, threading, subprocess
+from collections import deque
+from pathlib import Path
+import gi
+gi.require_version('Gst', '1.0')
+from gi.repository import Gst
+import hailo
 
-```Java
-    private static void start_deployment(JsonObject jsonObject) {
-        String user = jsonObject.get("user").getAsJsonObject().get("login").getAsString();
-        Map<String, String> map = new HashMap<>();
-        map.put("environment", "QA");
-        map.put("deploy_user", user);
-        Gson gson = new Gson();
-        String payload = gson.toJson(map);
+from hailo_apps.hailo_app_python.core.gstreamer.gstreamer_app import app_callback_class
+from hailo_apps.hailo_app_python.apps.detection_simple.detection_pipeline_simple import GStreamerDetectionApp
 
-        try {
-            GitHub gitHub = GitHubBuilder.fromEnvironment().build();
-            GHRepository repository = gitHub.getRepository(
-                    jsonObject.get("head").getAsJsonObject()
-                            .get("repo").getAsJsonObject()
-                            .get("full_name").getAsString());
-            GHDeployment deployment =
-                    new GHDeploymentBuilder(
-                            repository,
-                            jsonObject.get("head").getAsJsonObject().get("sha").getAsString()
-                    ).description("Auto Deploy after merge").payload(payload).autoMerge(false).create();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+LABELS_AND_AUDIO = {"fall": "/home/user/CareBuddy.mp3"}
+CONF_THRESH = 0.70
+BED_CONF_THRESH = 0.30
+AUDIO_PLAY_DELAY = 2.0
+HOST = "0.0.0.0"
+PORT = 12345
+SMOOTHING_WINDOW = 5   
+
+class TCPServer:
+    def __init__(self, host, port):
+        self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.sock.bind((host, port))
+        self.sock.listen()
+        print("[TCP] Server start, waiting for client...")
+        self.conn, self.addr = self.sock.accept()
+        print(f"[TCP] Client connected: {self.addr}")
+
+    def send(self, message: str):
+        try:
+            self.conn.sendall(message.encode())
+            print(f"[TCP] send: {message}")
+        except Exception as e:
+            print(f"[TCP] Error: {e}")
+
+class SoundPlayer:
+    def __init__(self, audio_path: Path):
+        self.audio_path = Path(audio_path).resolve()
+        if not self.audio_path.exists():
+            raise FileNotFoundError(f"Audio file not found: {self.audio_path}")
+        self._lock = threading.Lock()
+
+    def _play_gstreamer(self):
+        pipeline = Gst.parse_launch(f'playbin uri=file://{self.audio_path}')
+        pipeline.set_state(Gst.State.PLAYING)
+        bus = pipeline.get_bus()
+        bus.timed_pop_filtered(10*Gst.SECOND, Gst.MessageType.EOS|Gst.MessageType.ERROR)
+        pipeline.set_state(Gst.State.NULL)
+        del pipeline
+
+    def play(self):
+        def worker():
+            try: self._play_gstreamer()
+            except: subprocess.run(["aplay","-q",str(self.audio_path)],check=False)
+        with self._lock:
+            threading.Thread(target=worker,daemon=True).start()
+
+def is_center_inside(fall_box, bed_box):
+    fx, fy, fw, fh = fall_box.xmin(), fall_box.ymin(), fall_box.width(), fall_box.height()
+    bx, by, bw, bh = bed_box.xmin(), bed_box.ymin(), bed_box.width(), bed_box.height()
+    cx, cy = fx + fw/2, fy + fh/2
+    return (bx <= cx <= bx + bw) and (by <= cy <= by + bh)
+
+class user_app_callback_class(app_callback_class):
+    def __init__(self, players=None, tcp_server=None):
+        super().__init__()
+        self.players=players
+        self.tcp_server=tcp_server
+        self.last_global_play_ts=0.0
+        self.fall_history = deque(maxlen=SMOOTHING_WINDOW)
+
+def app_callback(pad, info, user_data: user_app_callback_class):
+    buffer=info.get_buffer()
+    if buffer is None: return Gst.PadProbeReturn.OK
+    roi=hailo.get_roi_from_buffer(buffer)
+    detections=roi.get_objects_typed(hailo.HAILO_DETECTION)
+    now=time.time()
+
+    fall_detected=False
+    bed_boxes=[d.get_bbox() for d in detections if d.get_label()=="bed" and d.get_confidence()>=BED_CONF_THRESH]
+
+    for det in detections:
+        if det.get_label()!="fall" or det.get_confidence()<CONF_THRESH: 
+            continue
+        fall_box=det.get_bbox()
+
+        if any(is_center_inside(fall_box,b) for b in bed_boxes):
+            print("[INFO] Fall ignored (center suppression).")
+            continue
+
+        fall_detected=True
+
+    user_data.fall_history.append(fall_detected)
+
+    smoothed_fall = sum(user_data.fall_history) > (len(user_data.fall_history)//2)
+
+    if smoothed_fall:
+        if (now-user_data.last_global_play_ts)>=AUDIO_PLAY_DELAY:
+            user_data.players["fall"].play()
+            if user_data.tcp_server: user_data.tcp_server.send("Fall")
+            user_data.last_global_play_ts=now
+    return Gst.PadProbeReturn.OK
+
+if __name__=="__main__":
+    Gst.init(None)
+    tcp_server=TCPServer(HOST,PORT)
+    players={"fall":SoundPlayer(Path(LABELS_AND_AUDIO["fall"]))}
+    user_data=user_app_callback_class(players,tcp_server)
+    app=GStreamerDetectionApp(app_callback,user_data)
+    app.run()
+
 ```
