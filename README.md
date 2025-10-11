@@ -71,11 +71,11 @@
 ## **💡3. 시스템 구성도**
 - 서비스 흐름도
   
-<img width="600" height="300" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/ServiceFlowChart.png?raw=true" />
+<img width="600" height="300" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/ServiceFlowChart1.png?raw=true" />
 
 - S/W 구성도
   
-<img width="600" height="550" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/SoftwareConfigurationDiagram.png?raw=true" />  
+<img width="600" height="550" alt="image" src="https://github.com/minseokim0207/assets/blob/master/img/softwareConfigurationDiagram1.png?raw=true" />  
 
 - H/W 구성도
   
