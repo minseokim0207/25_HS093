@@ -30,7 +30,7 @@ sudo reboot
 ```
 ---
 ## 🚀 Step2. Runing real-time inference example
-label.Json 파일을 생성합니다.
+label.json 파일을 생성합니다.
 ```json
 [
    {
@@ -49,9 +49,9 @@ label.Json 파일을 생성합니다.
 ```bash
 .source setup_env.sh
 ```
-변환한 파일(CareBuddy.hef) 과 추론 코드(CareBuddy.py)를 지정해 줍니다.
+변환한 파일(CareBuddy.hef), 추론 코드(CareBuddy.py) 및 Label 파일(label.json)을 지정해 줍니다.
 ```bash
-python basic_pipelines/CareBuddy.py --labels-json ./config.json --hef-path ./CareBuddy.hef  --input rpi
+python basic_pipelines/CareBuddy.py --labels-json ./label.json --hef-path ./CareBuddy.hef  --input rpi
 ```
 ---
 ---
@@ -198,4 +198,5 @@ if __name__=="__main__":
     app.run()
 ```
 ---
+
 
