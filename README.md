@@ -92,6 +92,7 @@
 
 [![한이음 드림업 프로젝트 소개](https://github.com/minseokim0207/assets/blob/master/img/youtubeImage.png?raw=true)](https://youtu.be/md-1Mj3nchI?si=9WYguuIe8CvcwUC6)
 
+[![CareBuddy_낙상감지_시연영상](https://github.com/minseokim0207/assets/blob/master/img/%EA%B8%88%EC%83%81_HS093_%EC%9E%91%ED%92%88%EC%82%AC%EC%A7%8404.jpg?raw=true)]([https://youtu.be/md-1Mj3nchI?si=9WYguuIe8CvcwUC6](https://youtu.be/LIuRo6GgGos))
 
 ---
 ## **💡5. 핵심 소스코드**
