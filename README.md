@@ -89,18 +89,18 @@
 
 ---
 ## **💡4. 작품 소개영상**
-- 한이음 드림업 프로젝트 소개영상
+- **한이음 드림업 프로젝트 소개영상**
   
 [![한이음 드림업 프로젝트 소개](https://github.com/minseokim0207/assets/blob/master/img/youtubeImage.png?raw=true)](https://youtu.be/md-1Mj3nchI?si=9WYguuIe8CvcwUC6)
-- CareBuddy 낙상감지 시연영상
+- **CareBuddy 낙상감지 시연영상**
   
 [![CareBuddy_낙상감지_시연영상](https://github.com/minseokim0207/assets/blob/master/img/%EA%B8%88%EC%83%81_HS093_%EC%9E%91%ED%92%88%EC%82%AC%EC%A7%8404.jpg?raw=true)](https://youtu.be/LIuRo6GgGos)
 
 ---
 ## **💡5. 미디어 자료**
-1. https://www.imaeil.com/page/view/2025120212355824575
-2. https://www.kbitv.net/news/articleView.html?idxno=13783
-3. https://www.localgg.co.kr/1049271
+- https://www.imaeil.com/page/view/2025120212355824575
+- https://www.kbitv.net/news/articleView.html?idxno=13783
+- https://www.localgg.co.kr/1049271
 ---
 ## **💡6. 핵심 소스코드**
 ```python
